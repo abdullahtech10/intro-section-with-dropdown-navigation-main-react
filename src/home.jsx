@@ -1,4 +1,6 @@
+
 import Header from "./header"
+
 
 function Home(){
     return(

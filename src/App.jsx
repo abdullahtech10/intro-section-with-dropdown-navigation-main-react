@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Home from "./home"
+// import { SpeedInsights } from "@vercel/speed-insights"
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
       </Routes>
     </BrowserRouter>
+    {/* <SpeedInsights/> */}
     </>
   )
 }
